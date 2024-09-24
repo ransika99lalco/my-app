@@ -19,7 +19,7 @@ pipeline {
         }
     }
     post {
-        Success {
+        success {
             echo 'Application Build Successfully...'
         }
     }
